@@ -48,8 +48,8 @@ unsigned long long int kara_mult(unsigned long long int num1, unsigned long long
 
 int main()
 {
-    unsigned long long int a = 3141592653589793238462643383279502884197169399375105820974944592LL;
-    unsigned long long int b = 2718281828459045235360287471352662497757247093699959574966967627LL;
+    unsigned long long int a = 25;
+    unsigned long long int b = 25;
     unsigned long long int result = kara_mult(a,b);
     std::cout << result << std::endl;
 }
